@@ -150,6 +150,7 @@ jobs:
       - name: Compile the firmware
         id: compile
         run: |
+          cp $GITHUB_WORKSPACE/openwrt/.config $GITHUB_WORKSPACE/openwrt/bin/targets/mediatek/filogic/make.config
           cd openwrt
           echo -e "$(nproc) thread compile"
           make -j$(nproc) || make -j1 || make -j1 V=s
