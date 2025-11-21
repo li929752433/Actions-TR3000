@@ -23,7 +23,7 @@
 
 git clone  	https://github.com/gdy666/luci-app-lucky.git 		package/lucky
 
- 预置HomeProxy数据
+#预置HomeProxy数据
 if [ -d *"homeproxy"* ]; then
 	echo " "
 
