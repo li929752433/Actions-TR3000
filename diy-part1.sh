@@ -19,7 +19,6 @@
 
 # git clone https://github.com/timsaya/luci-app-bandix package/luci-app-bandix
 # git clone https://github.com/timsaya/openwrt-bandix package/openwrt-bandix
-# git clone https://github.com/eamonxg/luci-theme-aurora 		package/luci-theme-aurora
 
 git clone  	https://github.com/gdy666/luci-app-lucky.git 		package/lucky
 
